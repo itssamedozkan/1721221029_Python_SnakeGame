@@ -28,7 +28,7 @@ menu = Menu(screen.get_rect())
 
 def Nmaxelements(list1, list2, N):
     final_list = []
-    list1 = list1
+    list1 = [int(x) for x in list1]
     list2 = list2
 
     for i in range(N):
